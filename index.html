@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lunáe – Modular Wear</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Plus Jakarta Sans', sans-serif; }
+    </style>
+</head>
+<body class="bg-white text-[#1A1A1A] antialiased">
+
+    <!-- Top Navigation Bar -->
+    <header class="w-full border-b border-gray-200 py-4 px-8 flex justify-between items-center text-xs tracking-wide">
+        <!-- Left Menu -->
+        <nav class="flex space-x-6 items-center">
+            <a href="#" class="font-semibold text-black hover:opacity-70 transition">New Collection</a>
+            <a href="#" class="text-gray-600 hover:text-black transition">Atasan</a>
+            <a href="#" class="text-gray-600 hover:text-black transition">Bawahan</a>
+            <a href="#" class="text-gray-600 hover:text-black transition">Aksesoris</a>
+            <a href="#" class="text-gray-600 hover:text-black transition">Set fashion</a>
+        </nav>
+        
+        <!-- Right Menu -->
+        <div class="flex space-x-6 items-center">
+            <a href="#" class="text-gray-600 hover:text-black transition">Pencarian</a>
+            <a href="#" class="text-gray-600 hover:text-black transition">Akun Saya</a>
+            <a href="#" class="text-red-600 font-medium hover:opacity-70 transition">Shopping</a>
+        </div>
+    </header>
+
+    <!-- Main Content Container -->
+    <main class="max-w-7xl mx-auto px-8 pt-12 pb-20">
+        
+        <!-- Brand Title & Tagline -->
+        <div class="mb-12">
+            <h1 class="text-3xl md:text-4xl font-serif tracking-widest font-bold mb-2">LUNAE</h1>
+            <p class="text-sm text-gray-700">One wardrobe. Endless possibilities.</p>
+            <p class="text-sm text-gray-700">Designed to transform with you.</p>
+        </div>
+
+        <!-- Product Grid (4 Columns) -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+            
+            <!-- Product 1 -->
+            <div class="group">
+                <div class="bg-[#E5E5E5] aspect-[3/4] mb-3 overflow-hidden flex items-center justify-center relative">
+                    <!-- Placeholder gambar hoodie hitam, bisa diganti tag <img> nanti -->
+                    <span class="text-xs text-gray-500 font-medium">UrbanHood Image</span>
+                </div>
+                <div class="flex justify-between items-start">
+                    <div>
+                        <h3 class="text-xs font-medium text-gray-900">UrbanHood</h3>
+                        <p class="text-xs text-gray-700 mt-0.5">Rp. 1.500.000</p>
+                    </div>
+                    <button class="border border-black px-2.5 py-1 text-xs font-mono hover:bg-black hover:text-white transition">+</button>
+                </div>
+            </div>
+
+            <!-- Product 2 -->
+            <div class="group">
+                <div class="bg-[#E5E5E5] aspect-[3/4] mb-3 overflow-hidden flex items-center justify-center relative">
+                    <span class="text-xs text-gray-500 font-medium">StreetStylez Image</span>
+                </div>
+                <div class="flex justify-between items-start">
+                    <div>
+                        <h3 class="text-xs font-medium text-gray-900">StreetStylez</h3>
+                        <p class="text-xs text-gray-700 mt-0.5">Rp. 1.500.000</p>
+                    </div>
+                    <button class="border border-black px-2.5 py-1 text-xs font-mono hover:bg-black hover:text-white transition">+</button>
+                </div>
+            </div>
+
+            <!-- Product 3 -->
+            <div class="group">
+                <div class="bg-[#E5E5E5] aspect-[3/4] mb-3 overflow-hidden flex items-center justify-center relative">
+                    <span class="text-xs text-gray-500 font-medium">ChillWave Image</span>
+                </div>
+                <div class="flex justify-between items-start">
+                    <div>
+                        <h3 class="text-xs font-medium text-gray-900">ChillWave</h3>
+                        <p class="text-xs text-gray-700 mt-0.5">Rp. 1.500.000</p>
+                    </div>
+                    <button class="border border-black px-2.5 py-1 text-xs font-mono hover:bg-black hover:text-white transition">+</button>
+                </div>
+            </div>
+
+            <!-- Product 4 -->
+            <div class="group">
+                <div class="bg-[#E5E5E5] aspect-[3/4] mb-3 overflow-hidden flex items-center justify-center relative">
+                    <span class="text-xs text-gray-500 font-medium">HoodedHaven Image</span>
+                </div>
+                <div class="flex justify-between items-start">
+                    <div>
+                        <h3 class="text-xs font-medium text-gray-900">HoodedHaven</h3>
+                        <p class="text-xs text-gray-700 mt-0.5">Rp. 1.500.000</p>
+                    </div>
+                    <button class="border border-black px-2.5 py-1 text-xs font-mono hover:bg-black hover:text-white transition">+</button>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Pagination Dots -->
+        <div class="flex justify-center space-x-2 mt-12">
+            <span class="w-2 h-2 rounded-full bg-gray-700"></span>
+            <span class="w-2 h-2 rounded-full bg-gray-300"></span>
+            <span class="w-2 h-2 rounded-full bg-gray-300"></span>
+            <span class="w-2 h-2 rounded-full bg-gray-300"></span>
+        </div>
+
+    </main>
+
+</body>
+</html>
